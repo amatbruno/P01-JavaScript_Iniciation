@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--TITTLE AND HEADER-->
+    <header>
+        <h1>PRACTICANDO CON JAVASCRIPT</h1>
+    </header>
+
+    <HR>
+    </HR>
+
+    <!--COMPARADOR DE TEXTOS-->
+    <p id="subtittle">COMPARADOR DE TEXTOS</p>
+
+    <div id="ap01">
+        <input id="input1" type="text">
+        <img id="sign" src="#" />
+        <input id="input2" type="text">
+    </div>
+
+    <HR>
+    </HR>
+
+    <!--CONTADOR DE LETRAS-->
+    <p id="subtittle">CONTADOR DE LETRAS</p>
+
+    <div id="ap02">
+        <input id="input3" type="text">
+        <p>en total tiene </p>
+        <p id="showTxt" type="text" readonly></p>
+        <p style="font-weight: bolder;">LETRAS</p>
+    </div>
+
+    <HR>
+    </HR>
+
+    <!--CALCULAR RAÍZ CUADRADA-->
+    <p id="subtittle">CALCULAR RAÍZ CUADRADA</p>
+
+    <div id="ap03">
+        <p>La raíz cuadrada de </p>
+        <input id="input4" type="number" style="appearance: textfield; -webkit-appearance: none; -moz-appearance: textfield;">
+        <style>
+            /* For WebKit-based browsers */
+            input[type="number"]::-webkit-inner-spin-button,
+            input[type="number"]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                appearance: none;
+                margin: 0;
+            }
+            </style>
+        <p id="squareRoot"> es<p>
+        <p id="showSquare" type="number" readonly></p>
+    </div>
+
+    <HR>
+    </HR>
+
+    <!--CONCATENAR TEXTOS-->
+    <p id="subtittle">CONCATENAR TEXTOS</p>
+
+    <div id="ap04">
+        <input id="input5" type="text">
+        <img id="sign" src="https://cdn-icons-png.flaticon.com/512/25/25304.png" />
+        <input id="input6" type="text">
+        <img id="sign"
+            src="https://imgs.search.brave.com/y1Ds7YfE7ycfD0g18ewxuG2SfNEhpntqybDjP_yc-c0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8xODkyNzQ1LTIw/MC5wbmc" />
+        <p id="concatedtxt"></p>
+    </div>
+
+    <HR>
+    </HR>
+
+    <!--CAMBIO COLOR Y TAMAÑO-->
+    <div id="allDivs">
+        <div id="ap05">
+            <p id="subtittle">CAMBIO DE COLOR</p>
+            <input type="radio" id="color1" name="color">
+            <label for="color1">Rojo</label>
+            <br><br>
+            <input type="radio" id="color2" name="color">
+            <label for="color2">Azul</label>
+            <br><br>
+            <input type="radio" id="color3" name="color">
+            <label for="color3">Rosa</label>
+            <p id="textColored">QUIERO SER DE OTRO COLOR</p>
+        </div>
+
+        <div id="ap06">
+            <p id="subtittle">CAMBIO DE TAMAÑO</p>
+            <div id="circle"></div>
+            <p>Altura</p>
+            <input id="height" type="number" style="appearance: textfield; -webkit-appearance: none; -moz-appearance: textfield;">
+            <p>Anchura</p>
+            <input id="width" type="number" style="appearance: textfield; -webkit-appearance: none; -moz-appearance: textfield;">
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="ap07">
+        <p id="subtittle">ADIVINA LA PALABRA</p>
+        <div id="word">
+            <div class="letter">G</div>
+            <div class="letter">I</div>
+            <div class="letter">R</div>
+            <div class="letter">A</div>
+            <div class="letter">S</div>
+            <div class="letter">O</div>
+            <div class="letter">L</div>
+        </div>
+        <p id="elemnts">Pista: <span id="hint">Planta Herbácea</span></p>
+        <p id="elemnts">Intentos restantes: <span id="attemps">5</span></p>
+        <p id="elemnts">Letras utilizadas: <span id="usedLetters">A - S</span></p>
+        <button onclick="loadNewWord()">Cambiar palabra</button>
+        
+        
+        
+        <!-- <input type="text" id="guessTxt">
+        <p>Has acertado </p>
+        <p id="showHiddWords"></p>
+        <p> palabras.</p> -->
+    </div>
+
+    <hr>
+
+    <footer>
+        <h3>HECHO POR BRUNO AMAT - 2DAW</p>
+    </footer>
+</body>
+
+</html>

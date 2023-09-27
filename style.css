@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#ap01 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#subtittle {
+    padding: 2%;
+    font-weight: bold;
+}
+
+#ap02 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#showTxt {
+    width: 10%;
+}
+
+#ap03 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+header {
+    font-size: 120%;
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(255, 255, 57);
+}
+
+
+#input4 {
+    width: 10%;
+}
+
+#ap04 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#sign {
+    width: 5%;
+}
+
+#allDivs {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#textColored {
+    margin-left: 52%;
+    margin-top: -30%;
+    width: 80%;
+}
+
+
+#circle {
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    background-color: rgb(255, 169, 39);
+    margin-left: 18%;
+}
+
+
+#ap06 {
+    display: inline;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 16%;
+    margin-top: 2%;
+}
+
+
+#word {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+p span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 12px 17px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(255, 121, 12);
+}
+
+.letter {
+    height: 40px;
+    width: 45px;
+    border: 2px solid rgb(255, 255, 18);
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pintarCorrect {
+    background-color: rgb(0, 193, 71);
+}
+
+.pintarError {
+    background-color: rgb(215, 43, 71);
+}
+
+#elemnts {
+    margin: 5px 0;
+}
+
+footer {
+    font-size: 100%;
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(255, 255, 18);
+}
+
+
+#height {
+    width: 55%;
+}
+
+#width {
+    width: 55%;
+}
+
