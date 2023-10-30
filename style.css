@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.941);
 }
 
 
@@ -14,6 +15,8 @@ body {
 #subtittle {
     padding: 2%;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 19px;
 }
 
 #ap02 {
@@ -22,6 +25,7 @@ body {
     align-items: center;
     margin-bottom: 4%;
     margin-top: 2%;
+    color: rgba(255, 255, 255, 0.638);
 }
 
 #showTxt {
@@ -34,13 +38,14 @@ body {
     align-items: center;
     margin-bottom: 4%;
     margin-top: 2%;
+    color: rgba(255, 255, 255, 0.638);
 }
 
 header {
     font-size: 120%;
     text-align: center;
     padding: 1%;
-    background-color: rgb(255, 255, 57);
+    background-color: rgb(233, 171, 0);
 }
 
 
@@ -54,6 +59,7 @@ header {
     align-items: center;
     margin-bottom: 4%;
     margin-top: 2%;
+    color: rgba(255, 255, 255, 0.638);
 }
 
 #sign {
@@ -65,6 +71,7 @@ header {
     justify-content:space-around;
     margin-bottom: 4%;
     margin-top: 2%;
+    color: rgba(255, 255, 255, 0.638);
 }
 
 #textColored {
@@ -78,7 +85,7 @@ header {
     height: 40%;
     width: 40%;
     border-radius: 50%;
-    background-color: rgb(255, 169, 39);
+    background-color: rgb(233, 171, 0);
     margin-left: 18%;
 }
 
@@ -89,66 +96,16 @@ header {
     align-items: center;
     margin-bottom: 16%;
     margin-top: 2%;
+    color: rgba(255, 255, 255, 0.638);
 }
 
-
-#word {
-    display: flex;
-    justify-content: center;
-    margin: 10%;
-}
-
-p span {
-    font-style: italic;
-    font-weight: bold;
-}
-
-button {
-    display: block;
-    margin: 20px auto;
-    width: fit-content;
-    background-color: rgb(233, 171, 0);
-    border: none;
-    border-radius: 20px;
-    padding: 12px 17px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 25px;
-}
-
-button:hover {
-    background-color: rgb(255, 121, 12);
-}
-
-.letter {
-    height: 40px;
-    width: 45px;
-    border: 2px solid rgb(255, 255, 18);
-    text-align: center;
-    margin: 5px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.pintarCorrect {
-    background-color: rgb(0, 193, 71);
-}
-
-.pintarError {
-    background-color: rgb(215, 43, 71);
-}
-
-#elemnts {
-    margin: 5px 0;
-}
 
 footer {
     font-size: 100%;
     text-align: center;
     padding: 1%;
-    background-color: rgb(255, 255, 18);
+    background-color: rgb(255, 198, 12);
 }
-
 
 #height {
     width: 55%;
@@ -157,4 +114,85 @@ footer {
 #width {
     width: 55%;
 }
+
+
+.hint {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.attempts-left {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.wrong-letters {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content .typing-input {
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+}
+
+.inputs input {
+    height: 50px;
+    width: 48px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 198, 12);
+    background-color: rgba(255, 255, 255, 0.824);
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    color: #009b84;
+}
+
+.content .elements {
+    margin: 25px 0 25px;
+}
+
+.elements p {
+    font-size: 15px;
+}
+
+p span {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 17px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(180, 132, 0);
+    color: rgba(0, 0, 0, 0.941);
+}
+
+
+.paint {
+    background-color: #02bfa4;
+}
+
+
+
+
+
+
 
